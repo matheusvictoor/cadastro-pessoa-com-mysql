@@ -5,14 +5,14 @@ import java.sql.SQLException;
 
 import util.ConnectionFactory;
 
-public class TesteConexao {
+public class ConnectionFactoryTest {
     
     public static void main(String[] args) {
         
         try {
-            Connection conn = ConnectionFactory.getConnection();
+            Connection con = ConnectionFactory.getConnection();
             System.out.println("Conexão estabelecida com sucesso!");
-            conn.close();
+            con.close();
         } catch (ClassNotFoundException e) {
             System.out.println("Erro na conexão: driver não encontrado!");
             e.printStackTrace();
