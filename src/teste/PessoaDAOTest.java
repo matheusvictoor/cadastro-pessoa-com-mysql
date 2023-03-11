@@ -3,13 +3,10 @@ package teste;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
-
 import java.util.List;
-
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
 import cadastros.Pessoa;
 import cadastros.PessoaDAO;
 
